@@ -1,0 +1,46 @@
+{
+    "config": {
+        "title": "Konfiguraatio",
+        "description": "Hallitse palvelimesi konfiguraatiota seuraavilla asetuksilla:",
+        "server": {
+            "title": "Palvelimen asetukset",
+            "prefix": "`config server prefix <prefix>` - Aseta komento etuliite",
+            "language": "`config server language <lang>` - Aseta kieli",
+            "success": "Asetus `{key}` päivitetty olemaan `{value}`",
+            "failure": "Asetuksen `{key}` päivitys epäonnistui.",
+            "no_permission": "Sinulla ei ole oikeuksia hallita palvelimen asetuksia."
+        }, 
+        "user": {
+            "title": "Käyttäjän asetukset",
+            "language": "`config user language <lang>` - Aseta ensisijainen kieli",
+            "success": "Asetus `{key}` päivitetty olemaan `{value}`",
+            "failure": "Asetuksen `{key}` päivitys epäonnistui."
+        }
+    },
+    "ar": {
+        "title": "Automaattiset vastaukset",
+        "description": "Hallitse automaattisia vastauksia.",
+        "failure": {
+            "no_permission": "Sinulla ei ole oikeuksia hallita automaattisia vastauksia.",
+            "not_found": "`{name}`:ä ei löydetty!.",
+            "invalid_name": "Kelvoton vastauksen nimi. Sen on oltava aakkosnumeerinen, eikä välilyöntejä sallita.",
+            "argument_missing": "Vaadittu `{arg}` argumentti puuttuu.",
+            "no_autoresponders": "Automaattisia vastauksia ei löydetty."
+        },
+        "create": {
+            "title": "luo",
+            "success": "`{name}` luotu onnistuneesti.",
+            "failure": "Vastauksen `{name}` luonti epäonnistui."
+        },
+        "edit": {
+            "title": "muokkaa",
+            "success": "`{name}` muokattu onnistuneesti.",
+            "failure": "Vastauksen `{name}` muokkaus epäonnistui."
+        },
+        "delete": {
+            "title": "poista",
+            "success": "`{name}` poistettu onnistuneesti.",
+            "failure": "Vastauksen `{name}` poisto epäonnistui."
+        }
+    }
+}
